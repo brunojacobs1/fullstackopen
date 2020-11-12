@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJqcyIsImlkIjoiNWY1NmU4NjhjMWI5MmIwNmVjMmVmOWQ1IiwiaWF0IjoxNTk5NTMyODY2fQ.l33nY_dveL_95-95f76L0cEbQSIBjXlNqj4GrAx19w4
+
+{
+    "title": "first test with comments",
+    "author": "somedude",
+    "url": "mongodb.com",
+    "likes": 5,
+    "comments": ["first comment", "second comment"]
+}
